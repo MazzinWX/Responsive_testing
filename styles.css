@@ -1,0 +1,31 @@
+.container {
+  width: auto;
+  height: 40vh;
+  padding: 10%;
+  background-color: antiquewhite;
+}
+
+.rectangle {
+  width: auto;
+  height: 50px;
+  justify-content: center;
+  background-color: blueviolet;
+}
+
+@media only screen and (min-width: 600px) {
+  .rectangle {
+    background-color: chocolate;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .rectangle {
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .rectangle {
+    background-color: yellow;
+  }
+}
